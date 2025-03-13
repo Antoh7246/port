@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+  <title>welcome page</title>
+  <style>
+  body{
+      font-family:arial, sans-serif;
+      text-align:center;
+      background-color:  #f4f4f4;
+      margin: 50px;
+      }
+      h1 {
+          color:#333;
+      }
+      .name-box{
+          background:white;
+          padding: 20px;
+          display: inline-block;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      p {
+          font-size: 18px;
+          color:#666;
+      }
+      button{
+         margin-top:15px;
+         padding:10px 20px;
+         font-size: 16px;
+         border: none;
+         background-color: #28a745;
+         color:white;
+         border-radius: 5px;
+         cursor: pointer;
+      }
+         button:hover{
+             background-color: #218838;
+         }
+     </style>
+     <script>
+     function greet(){
+         alert("Hello Tony! Have a great day!");
+         }
+     </script>
+</head>
+<body>
+
+    <div class="name-box" >
+        <h1>Welcome, Tony!</h1>
+        <p>Welcome to your personalized HTML page.</p>
+        <button onclick="greet()">click Me!</button>
+    </div>
+    
+</body>
+</html>
